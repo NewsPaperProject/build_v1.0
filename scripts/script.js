@@ -107,7 +107,7 @@ function makeImagesReplaceable() {
 
 function generatePDF() {
     const { jsPDF } = window.jspdf;
-    const pdf = new jsPDF('p', 'mm', 'a4');
+    const pdf = new jsPDF('p', 'mm', 'a3');
     const pages = ['pageOne', 'pageTwo', 'pageThree', 'pageFour', 'pageFive'];
     const promises = [];
 
